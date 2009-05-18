@@ -1,0 +1,14 @@
+CXXFLAGS += -ansi -Wall
+# ASFLAGS +=
+# LDFLAGS +=
+# INCLUDES +=
+
+CXXFILES[] =
+   Main
+   Message
+   ConcreteMessages
+   Processor
+
+MAIN = main
+
+.DEFAULT: $(CXXProgram $(MAIN), $(CXXFILES))
